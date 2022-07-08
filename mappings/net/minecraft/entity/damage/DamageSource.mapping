@@ -34,6 +34,7 @@ CLASS net/minecraft/unmapped/C_sbxfkpyv net/minecraft/entity/damage/DamageSource
 		COMMENT to be called.
 	FIELD f_ufcbgsmg DROWN Lnet/minecraft/unmapped/C_sbxfkpyv;
 	FIELD f_vfcbizbp LIGHTNING_BOLT Lnet/minecraft/unmapped/C_sbxfkpyv;
+	FIELD f_wvuujgkg bypassProtection Z
 	FIELD f_wybfmsxl unblockable Z
 	FIELD f_xasmgxdc fromFalling Z
 	FIELD f_xrjapufb DRYOUT Lnet/minecraft/unmapped/C_sbxfkpyv;
@@ -64,6 +65,8 @@ CLASS net/minecraft/unmapped/C_sbxfkpyv net/minecraft/entity/damage/DamageSource
 	METHOD m_hzcbboyy setUsesMagic ()Lnet/minecraft/unmapped/C_sbxfkpyv;
 	METHOD m_iqixryso sting (Lnet/minecraft/unmapped/C_usxaxydn;)Lnet/minecraft/unmapped/C_sbxfkpyv;
 		ARG 0 attacker
+	METHOD m_joqmhmwp sonicBoom (Lnet/minecraft/unmapped/C_astfners;)Lnet/minecraft/unmapped/C_sbxfkpyv;
+		ARG 0 entity
 	METHOD m_kfwdxrel getPosition ()Lnet/minecraft/unmapped/C_vgpupfxx;
 	METHOD m_kunhooiu isFire ()Z
 	METHOD m_nzzjkqtj magic (Lnet/minecraft/unmapped/C_astfners;Lnet/minecraft/unmapped/C_astfners;)Lnet/minecraft/unmapped/C_sbxfkpyv;
@@ -79,6 +82,8 @@ CLASS net/minecraft/unmapped/C_sbxfkpyv net/minecraft/entity/damage/DamageSource
 	METHOD m_ptucnpmv isFromFalling ()Z
 	METHOD m_qchoewsw badRespawnPoint ()Lnet/minecraft/unmapped/C_sbxfkpyv;
 	METHOD m_qlknncwi getAttacker ()Lnet/minecraft/unmapped/C_astfners;
+	METHOD m_qnxgwikn bypassesProtection ()Z
+	METHOD m_qzucwhaj setBypassesProtection ()Lnet/minecraft/unmapped/C_sbxfkpyv;
 	METHOD m_rdrwvsuv firework (Lnet/minecraft/unmapped/C_huldsolp;Lnet/minecraft/unmapped/C_astfners;)Lnet/minecraft/unmapped/C_sbxfkpyv;
 		ARG 0 firework
 		ARG 1 attacker

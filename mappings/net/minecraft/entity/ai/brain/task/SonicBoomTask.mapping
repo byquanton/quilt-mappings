@@ -6,6 +6,12 @@ CLASS net/minecraft/unmapped/C_mpfliepa net/minecraft/entity/ai/brain/task/Sonic
 	FIELD f_naqqgbva TICKS_BEFORE_SOUND I
 	FIELD f_pieytvkx HORIZONTAL_DISTANCE I
 	FIELD f_porvvpem VERTICAL_DISTANCE I
+	METHOD m_ehrxwrfs (Lnet/minecraft/unmapped/C_fynaplbn;Lnet/minecraft/unmapped/C_bdwnwhiu;Lnet/minecraft/unmapped/C_usxaxydn;)V
+		ARG 2 livingEntity
 	METHOD m_graomxvm setCooldown (Lnet/minecraft/unmapped/C_usxaxydn;I)V
 		ARG 0 entity
 		ARG 1 cooldown
+	METHOD m_tcipgpjs (Lnet/minecraft/unmapped/C_fynaplbn;Lnet/minecraft/unmapped/C_usxaxydn;)Z
+		ARG 1 target
+	METHOD m_ysvqpmbc (Lnet/minecraft/unmapped/C_fynaplbn;Lnet/minecraft/unmapped/C_usxaxydn;)V
+		ARG 1 target
